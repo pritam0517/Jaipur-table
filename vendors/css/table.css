@@ -13,16 +13,20 @@
     width: 70vw;
     margin: 0 auto;
     margin-top: 10px;
-    display: flex; /* Align child elements horizontally */
-    flex-wrap: nowrap; /* Prevent wrapping to new lines */
-    overflow-x: auto; /* Enable horizontal scrolling for overflow content */
- 
-    height: 60vh; /* Maintain the specified height */
-    margin-bottom: 0; /* Keep the specified margin */
-    padding: 5px; /* Retain the padding */
-    background-color: whitesmoke; /* Retain the background color */
-    gap: 10px; /* Add spacing between child elements */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    display: flex; 
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    height: 60vh; 
+    margin-bottom: 0; 
+    padding: 5px;
+    background-color: white;
+   
+    gap: 10px; 
+    scrollbar-width: none; 
+  }
+  .bgs{
+    height: 100%;
+    background-color: whitesmoke; 
   }
   
   /* Hide scrollbar for WebKit browsers */
